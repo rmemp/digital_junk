@@ -1,4 +1,7 @@
 int main(int argc, char** argv, char** envp)
 {
-	return 37;
+	int a = 1;
+
+
+	return a - 1;
 }

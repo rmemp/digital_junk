@@ -1,0 +1,11 @@
+#ifndef __CONFIGURE__H__ 
+#define __CONFIGURE__H__
+
+const int VERSION_MAJOR{ ${VERSION_MAJOR} };
+const int VERSION_MINOR{ ${VERSION_MINOR} };
+const int VERSION_PATCH{ ${VERSION_PATCH} };
+const int VERSION_TWEAK{ ${VERSION_TWEAK} };
+
+const char * const VERSION_STR{ "${VERSION_MAJOR}.${VERSION_MINOR}.${VERSION_PATCH}.${VERSION_TWEAK}" };
+
+#endif // __CONFIGURE__H__
